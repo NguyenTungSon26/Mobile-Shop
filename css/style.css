@@ -1,0 +1,77 @@
+body {
+  font-size: 13px;
+  font-family: arial;
+  color: #333;
+}
+#header {
+  background: #222;
+}
+#logo,
+#search,
+#cart {
+  height: 60px;
+}
+#search {
+  padding-top: 13px;
+}
+#search input {
+  font-size: 13px;
+  width: 280px;
+  height: 30px;
+  /* căn giữa vào nút input để khi gõ text sẽ căn giưa theo chiều dọc*/
+  line-height: 30px;
+  border: none;
+  border-radius: 3px 0 0 3px;
+}
+#search button {
+  padding: 0 15px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 13px;
+  background: #eb1f27;
+  color: #fff;
+  border: none;
+  border-radius: 0 3px 3px 0;
+}
+#cart {
+  padding-top: 12px;
+}
+#cart a,
+#cart span {
+  color: #fff;
+  /* viết hoa kí tự đầu tiên */
+  text-transform: capitalize;
+}
+#cart span {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  background: #eb1f27;
+  border-radius: 100%;
+  text-align: center;
+  display: inline-block;
+}
+#menu {
+}
+#menu ul {
+  padding-left: 0;
+  background: #eb1f27;
+  overflow: hidden;
+}
+.menu-item {
+  float: left;
+  text-transform: capitalize;
+  /* bỏ chấm tròn màu đen của các li */
+  list-style: none;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 15px;
+  border-right: 1px solid#c60a11;
+}
+.menu-item a {
+  color: #fff;
+}
+.menu-item:hover {
+  background: #c60a11;
+  cursor: pointer;
+}
