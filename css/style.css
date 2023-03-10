@@ -51,6 +51,7 @@ body {
   text-align: center;
   display: inline-block;
 }
+
 #menu {
 }
 #menu ul {
@@ -74,4 +75,40 @@ body {
 .menu-item:hover {
   background: #c60a11;
   cursor: pointer;
+}
+#body {
+  background: #e7ecf4;
+}
+.products {
+  margin-top: 15px;
+}
+.products h3 {
+  font-size: 18px;
+}
+.product-list {
+  margin-left: -5px;
+  margin-right: -5px;
+}
+.product-item {
+  text-align: center;
+  padding: 5px;
+}
+.product-item img {
+  width: 125px;
+  height: 160px;
+}
+.product-item h4 a {
+  color: #333;
+  font-size: 13px;
+  font-weight: bold;
+}
+.product-item p {
+  text-transform: capitalize;
+}
+.product-item p span {
+  color: #eb1f27;
+  font-weight: bold;
+}
+.banner-item {
+  margin-bottom: 10px;
 }
